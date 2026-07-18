@@ -1,0 +1,16 @@
+name: nick
+version: '1.0.7'
+
+main: pl.nick.Nick
+api-version: '1.21'
+load: POSTWORLD
+
+authors: [ ZaQsu ]
+
+commands:
+  nick:
+    usage: /<command> <player> <hide|reveal|change> [new_nick]
+
+permissions:
+  nick.admin:
+    default: op
